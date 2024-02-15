@@ -55,6 +55,10 @@ plugins:
 paginate: 10
 paginate_path: "/articles/page:num/"
 
+exclude:
+  - Gemfile
+  - README.md
+
 # Date format settings
 date_format: "%Y年%-m月%-d日"
 
