@@ -9,6 +9,6 @@ permalink: /
     お問い合わせはこちらへどうぞ: hello@{{ site.domain }}
   </p>
   <p class="right">
-    {{ site.date | date: "%Y年%-m月%-d日" }} 最終更新<br />
+    {{ site.time }} 最終更新<br />
   </p>
 </div>
