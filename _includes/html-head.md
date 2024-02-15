@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="color-scheme" content="light dark">
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
     <style>
