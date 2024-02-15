@@ -1,0 +1,61 @@
+# Site settings
+title: Morpho
+tagline: Yet another Bluesky
+
+description: > # this means to ignore newlines until "url:"
+
+url: "https://morpho.social" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "morpho.social"
+
+timezone: Asia/Tokyo
+
+did: "did:plc:fothnjbgdlnmwae7oklslwh7"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
+    preview_as_code: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+assets:
+  compression: true # true on JEKYLL_ENV=production
+  gzip: true
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
+  precompile: all
+  raw_precompile: all
+
+# Gem settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+paginate: 10
+paginate_path: "/articles/page:num/"
+
+# Date format settings
+date_format: "%Y年%-m月%-d日"
+
+# End
