@@ -8,9 +8,9 @@ permalink: /
 
 <div>
   <p>
-    お問い合わせはこちらへどうぞ: hello@{{ site.domain }}
+    お問合せはこちら: hello@{{ site.domain }}
   </p>
   <p class="right">
-    {{ site.time }} 最終更新<br />
+    {{ "now" | date: "%Y年%-m月%-d日" }} 最終更新<br />
   </p>
 </div>
