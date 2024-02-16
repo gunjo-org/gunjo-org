@@ -4,7 +4,7 @@ permalink: /
 ---
 
 # {{ site.title }}
-## {{ site.description }}
+## {{ site.tagline }}
 
 <div>
   <p>
