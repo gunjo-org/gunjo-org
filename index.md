@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 ---
-<h1 class="title">{{ site.title }}</h1>
+<h1>{{ site.title }}</h1>
 <h2>Yet another Bluesky</h2>
 <div>
   <p>
