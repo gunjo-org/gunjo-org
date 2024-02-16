@@ -2,8 +2,10 @@
 layout: default
 permalink: /
 ---
-<h1>{{ site.title }}</h1>
-<h2>Yet another Bluesky</h2>
+
+# {{ site.title }}
+## {{ site.description }}
+
 <div>
   <p>
     お問い合わせはこちらへどうぞ: hello@{{ site.domain }}
