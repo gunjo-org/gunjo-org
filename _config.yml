@@ -3,7 +3,7 @@ title: Morpho
 tagline: Yet another Bluesky
 
 description: > # this means to ignore newlines until "url:"
-
+  国内完結型SNS「モルフォ」の運用予定地および運営フォーラムです。
 url: "https://morpho.social" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "morpho.social"
 
