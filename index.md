@@ -3,8 +3,8 @@ layout: default
 permalink: /
 ---
 
-# - {{ site.title }} -
-## {{ site.tagline }}
+# {{ site.title }}
+## - {{ site.tagline }} -
 
 <div>
   <p>
