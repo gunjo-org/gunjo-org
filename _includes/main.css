@@ -38,8 +38,8 @@ html, body {
   display: flex;
 }
 
-.a {
-  color: inherit;
+a {
+  color: #000;
   text-decoration: inherit;
   margin: 1rem;
 }
