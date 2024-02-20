@@ -11,7 +11,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.header {
+header {
   min-width: 100%;
   height: 100px;
   display: flex;
@@ -29,11 +29,11 @@ html, body {
   margin: 2rem;
 }
 
-.nav {
+nav {
   margin-left: auto;
 }
 
-.ul {
+nav > ul {
   list-style: none;
   display: flex;
 }
