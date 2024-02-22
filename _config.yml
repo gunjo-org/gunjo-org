@@ -55,6 +55,9 @@ plugins:
 paginate: 10
 paginate_path: "/articles/page:num/"
 
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - README.md
