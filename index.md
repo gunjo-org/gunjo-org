@@ -11,6 +11,6 @@ permalink: /
     お問合せはこちら: {{ site.email }}
   </p>
   <p class="right">
-    {{ "now" | date: date_format }} 最終更新
+    {{ site.date | date: date_format }} 最終更新
   </p>
 </div>
