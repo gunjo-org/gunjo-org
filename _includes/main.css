@@ -60,6 +60,10 @@ main > ul {
   list-style-type: "# " !important;
 }
 
+article {
+  align-items: normal;
+}
+
 .container {
   min-height: 100vh;
   display: flex;

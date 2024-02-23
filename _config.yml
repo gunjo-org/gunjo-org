@@ -55,10 +55,7 @@ plugins:
 # Date format settings
 date_format: "%Y年%-m月%-d日"
 
-permalink: /articles/:title
-
-paginate: 10
-paginate_path: "/articles/page:num/"
+permalink: /posts/:title
 
 include:
   - .well-known
