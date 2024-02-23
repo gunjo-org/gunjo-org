@@ -7,4 +7,6 @@ permalink: /
 {% for post in site.posts limit:3 %}
 {{ post.date | date: site.date_format }} [{{ post.title }}]({{ post.url }})
 {% endfor %}
-[**Morpho** developed on **GitHub**](https://github.com/morpho-social)
+
+[<i class="fa-bluesky"></i>](https://bsky.app/profile/{{ site.did }})
+[<i class="fa-github"></i>](https://github.com/morpho-social)

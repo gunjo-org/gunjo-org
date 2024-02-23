@@ -1,4 +1,26 @@
-﻿html, body {
+﻿@font-face {
+  font-family: 'fa-sub';
+  src: url('/assets/fa-sub.woff2') format('woff2');
+  font-display: swap;
+}
+
+i {
+  font-family: 'fa-sub' !important;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.fa-2x {
+  font-size: 2rem;
+}
+.fa-bluesky:before {
+  content: "\e900";
+}
+.fa-github:before {
+  content: "\eab0";
+}
+
+html, body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
