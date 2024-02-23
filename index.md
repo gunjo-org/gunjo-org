@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 # {{ site.title }}
-### 新着情報
+### **新着情報**
 {% for post in site.posts limit:3 %}
 [{{ post.title }}]({{ post.url }})
 {% endfor %}
