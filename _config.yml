@@ -5,7 +5,7 @@ tagline: Yet another Bluesky
 description: > # this means to ignore newlines until "url:"
   国内完結型SNS「モルフォ」の運用予定地および運営フォーラムです。
 url: "https://about.morpho.social" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "morpho.social"
+email: "hello@morpho.social"
 
 timezone: Asia/Tokyo
 
@@ -52,8 +52,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Date format settings
+date_format: "%Y年%-m月%-d日"
+
+# Collections settings
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path.html
+
 paginate: 10
-paginate_path: "/articles/page:num/"
+paginate_path: "/:collection/page:num/"
 
 include:
   - .well-known

@@ -8,11 +8,9 @@ permalink: /
 
 <div>
   <p>
-    お問合せはこちら: hello@{{ site.domain }}
+    お問合せはこちら: {{ site.email }}
   </p>
   <p class="right">
-    {{ "now" | date: "%Y年%-m月%-d日" }} 最終更新
+    {{ "now" | date: date_format }} 最終更新
   </p>
 </div>
-
-[GitHub](https://github.com/morpho-social)
