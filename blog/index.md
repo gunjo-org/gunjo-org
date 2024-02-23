@@ -1,10 +1,9 @@
 ﻿---
 layout: default
 title: 新着情報
-permalink: /posts/
+permalink: /blog/
 pagination: 
   enabled: true
-unless: true
 ---
 <ul>
   {% for post in paginator.posts %}

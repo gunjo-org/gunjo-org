@@ -59,10 +59,10 @@ date_format: "%Y年%-m月%-d日"
 collections:
   posts:
     output: true
-    permalink: /:collection/:path.html
+    permalink: /blog/:path.html
 
 paginate: 10
-paginate_path: "/posts/page:num/"
+paginate_path: "/blog/page:num/"
 
 include:
   - .well-known
