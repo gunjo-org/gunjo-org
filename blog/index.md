@@ -1,7 +1,6 @@
 ﻿---
 layout: default
 title: 新着情報
-permalink: /blog/
 pagination: 
   enabled: true
 ---
