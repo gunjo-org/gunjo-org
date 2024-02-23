@@ -6,4 +6,5 @@ layout: default
 <small>{{ page.date | date: "%Y年%-m月%-d日" }} 投稿</small>
 {{ content }}
 </article>
+
 {% include pagination.md %}

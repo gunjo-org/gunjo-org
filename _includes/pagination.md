@@ -1,4 +1,4 @@
-<div>
+<small>
 {% if page.previous %}
 <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; 前の記事</a>
 {% else %}
@@ -10,4 +10,4 @@
 {% else %}
 <span>次の記事 &raquo;</span>
 {% endif %}
-</div>
+</small>
