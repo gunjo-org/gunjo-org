@@ -21,7 +21,7 @@ i {
 }
 
 html, body {
-  color: #333;
+  color: #555;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -31,7 +31,6 @@ html, body {
 }
 
 small {
-  color: #888;
   margin: 1rem;
 }
 
@@ -67,7 +66,6 @@ nav > ul {
 }
 
 a {
-  color: #888;
   text-decoration: inherit;
   margin: 1rem;
 }
