@@ -66,6 +66,7 @@ nav > ul {
 }
 
 a {
+  color: #888;
   text-decoration: inherit;
   margin: 1rem;
 }
