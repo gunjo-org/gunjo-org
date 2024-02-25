@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap')
 @font-face {
   font-family: 'fa-sub';
-  src: url('/assets/fa-sub.woff2') format('woff2');
+  src: url('/assets/fa-sub.woff2') format('woff2') !important;
   font-display: swap;
 }
 
