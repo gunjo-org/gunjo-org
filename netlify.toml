@@ -2,7 +2,13 @@
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
 
 [[redirects]]
-from = "https://about-morpho.netlify.app/*"
-to = "https://about.morpho.social/:splat"
+from = "https://gunjo-org.netlify.app/*"
+to = "https://www.gunjo.org/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://about.morpho.social/*"
+to = "https://www.gunjo.org/:splat"
 status = 301
 force = true
