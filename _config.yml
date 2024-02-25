@@ -4,8 +4,8 @@ tagline: Morpho - Yet another Bluesky
 
 description: > # this means to ignore newlines until "url:"
   国内完結型SNS「モルフォ」の運営団体です。
-url: "https://about.morpho.social" # the base hostname & protocol for your site, e.g. http://example.com
-email: "hello@morpho.social"
+url: "https://www.gunjo.org" # the base hostname & protocol for your site, e.g. http://example.com
+email: "hello@gunjo.org"
 
 timezone: Asia/Tokyo
 
