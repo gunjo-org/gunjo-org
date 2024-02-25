@@ -1,5 +1,5 @@
 ﻿<header>
-  <a href="/">about.morpho.social</a>
+  <a href="/">gunjo.org</a>
   <nav>
     <ul>
       <li><a href="https://bsky.app/profile/{{ site.did }}"><i class="fa-bluesky fa-2x"></i></a></li>
