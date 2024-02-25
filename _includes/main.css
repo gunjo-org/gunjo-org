@@ -22,6 +22,7 @@ i {
 
 html, body {
   color: #00122b;
+  background-color: #f6f8fa;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -45,7 +46,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: hsla(0,0%,100%,.5);
+  background-color: hsla(210,29%,97%,.5);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   padding: 0 5%;
