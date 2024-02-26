@@ -9,8 +9,13 @@ email: "hello@gunjo.org"
 
 timezone: Asia/Tokyo
 
-did: "did:plc:fothnjbgdlnmwae7oklslwh7"
+color:
+  bg: "#f6f8fa"
+  text: "#00122b"
+  alpha: "hsla(210,29%,97%,.5)"
 
+
+did: "did:plc:fothnjbgdlnmwae7oklslwh7"
 github: gunjo-org
 
 # Build settings
