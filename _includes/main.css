@@ -62,6 +62,10 @@ nav > ul {
   display: flex;
 }
 
+ul {
+  list-style-type: "# " !important;
+}
+
 a {
   color: {{ site.color.text }};
   text-decoration: inherit;
@@ -78,10 +82,6 @@ main {
   align-items: center;
   width: 90vw;
   margin: 0 auto;
-}
-
-#markdown-toc {
-  list-style-type: "# " !important;
 }
 
 article {
