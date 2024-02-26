@@ -66,6 +66,10 @@ ul {
   list-style-type: "#";
 }
 
+.pagination > a {
+  margin: 0 !important;
+}
+
 a {
   color: {{ site.color.text }};
   text-decoration: inherit;
