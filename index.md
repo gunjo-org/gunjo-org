@@ -7,7 +7,7 @@ permalink: /
 
 ### 新着情報
 {% for post in site.posts limit:5 %}
-{% unless site.posts %}
+{% unless post.unless %}
 [{{ post.title }}]({{ post.url }})
 {% endunless %}
 {% endfor %}
