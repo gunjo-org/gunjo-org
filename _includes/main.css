@@ -22,8 +22,8 @@ i {
 }
 
 html, body {
-  color: #00122b;
-  background-color: #f6f8fa;
+  color: {{ site.color.text }};
+  background-color: {{ site.color.bg }};
   padding: 0;
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
@@ -47,7 +47,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: hsla(210,29%,97%,.5);
+  background-color: {{ site.color.alpha }};
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   padding: 0 5%;
@@ -63,7 +63,7 @@ nav > ul {
 }
 
 a {
-  color: #00122b;
+  color: {{ site.color.text }};
   text-decoration: inherit;
   margin: 1rem;
 }
@@ -98,7 +98,7 @@ article {
 
 .status {
   display: inline-block;
-  border-right: 1px solid #00122b;
+  border-right: 1px solid {{ site.color.text }};
   margin: 0;
   margin-right: 20px;
   padding: 10px 23px 10px 0;
