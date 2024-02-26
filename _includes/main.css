@@ -80,7 +80,7 @@ main {
   margin: 0 auto;
 }
 
-main > ul {
+#markdown-toc {
   list-style-type: "# " !important;
 }
 
