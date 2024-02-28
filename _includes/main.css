@@ -92,6 +92,20 @@ article {
   align-items: normal;
 }
 
+fieldset {
+  border: 1px solid var(--text);
+  padding: 15px;
+  border-radius: .3rem;
+  legend {
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text);
+  }
+}
+
 .container {
   min-height: 100vh;
   display: flex;
