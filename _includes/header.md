@@ -1,5 +1,5 @@
 ﻿<header>
-  <a href="/">gunjo.org</a>
+  <a href="{{ site.url }}" title="{{ site.title }}">gunjo.org</a>
   <nav>
     <ul>
       <li><a href="https://bsky.app/profile/{{ site.did }}"><i class="fa-bluesky fa-2x"></i></a></li>
