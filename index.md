@@ -4,18 +4,13 @@ permalink: /
 ---
 ## {{ site.title }}
 {{ site.description }}
-
 <fieldset>
 <legend>
-
-### 新着情報
-
+<h3>新着情報</h3>
 </legend>
-
 {% for post in site.posts limit:5 %}
-[{{ post.title }}]({{ post.url }})
+<a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
-
 </fieldset>
 <br />
 <small>
