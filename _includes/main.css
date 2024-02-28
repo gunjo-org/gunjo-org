@@ -93,16 +93,12 @@ article {
 }
 
 fieldset {
-  border: 1px solid var(--text);
+  border: 1px solid {{ site.color.text }};
   padding: 15px;
   border-radius: .3rem;
   legend {
     margin: 0 auto;
     padding: 0 10px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    color: var(--text);
   }
 }
 
