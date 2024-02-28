@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 
 @font-face {
   font-family: 'fa-sub';
@@ -26,7 +26,7 @@ html, body {
   background-color: {{ site.color.bg }};
   padding: 0;
   margin: 0;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Serif JP", serif;
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
   }
