@@ -8,6 +8,6 @@
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
     <style>
-    {% include main.css %}
+    {% include style.css %}
     </style>
 </head>
