@@ -138,3 +138,34 @@ fieldset {
 .right {
   text-align: right;
 }
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width:100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid {{ site.color.alpha }};
+}
+
+table tr:nth-child(2n-1) {
+  background-color: {{ site.color.bg }};
+}
+ 
+table tr:nth-child(2n) {
+  background-color: {{ site.color.alpha }};
+}
+
+table tr th {
+  font-weight: bold;
+  background-color: {{ site.color.bg }};
+}
+
+table tr th,
+table tr td {
+  text-align: left;
+  padding: 5px 10px;
+}
