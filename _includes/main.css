@@ -98,7 +98,7 @@ fieldset {
   border-radius: .3rem;
   legend {
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 10px;
   }
 }
 
