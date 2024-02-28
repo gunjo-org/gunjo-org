@@ -10,6 +10,7 @@ permalink: /
 </legend>
 {% for post in site.posts limit:5 %}
 <a href="{{ post.url }}">{{ post.title }}</a>
+<br />
 {% endfor %}
 </fieldset>
 <br />
