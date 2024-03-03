@@ -6,9 +6,3 @@ from = "https://gunjo-org.netlify.app/*"
 to = "https://www.gunjo.org/:splat"
 status = 301
 force = true
-
-[[redirects]]
-from = "https://about.morpho.social/*"
-to = "https://www.gunjo.org/:splat"
-status = 301
-force = true
