@@ -12,7 +12,6 @@ timezone: Asia/Tokyo
 color:
   bg: "#fff"
   text: "#333"
-  link: "#27b"
   alpha: "hsla(0,0%,100%,.5)"
 
 

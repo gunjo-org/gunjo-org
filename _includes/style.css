@@ -64,7 +64,7 @@ nav > ul {
 }
 
 .nav {
-  color: {{ site.color.text }};
+  text-decoration: none;
 }
 
 ul {
@@ -76,8 +76,8 @@ ul {
 }
 
 a {
-  color: {{ site.color.link }};
-  text-decoration: none;
+  color: {{ site.color.text }};
+  text-decoration: underline;
   margin: 1rem;
 }
 
