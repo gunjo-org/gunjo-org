@@ -2,5 +2,5 @@
 ---
 version: STSv1
 mode: enforce
-mx: *.{{ site.url }}
+mx: *.gunjo.org
 max_age: 604800
