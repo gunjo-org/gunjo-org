@@ -6,3 +6,9 @@ from = "https://gunjo-org.netlify.app/*"
 to = "https://www.gunjo.org/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "https://mta-sts.gunjo.org/.well-known/mta-sts.txt"
+to = "https://www.gunjo.org/.well-known/mta-sts.txt"
+status = 301
+force = false
