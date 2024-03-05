@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BlueskyのセルフホスティングPDSを起動しました
+title: Bluesky PDSを起動しました
 ---
-本日、Morpho開発のスタートラインにあたる(Blueskyの)Self-hosting PDSを起動しました。
+本日、Morpho開発のスタートラインにあたるセルフホスティングPDSを起動しました。
 起動前にはOpenSSLとOpenSSHを最新版(それぞれ3.2.1と9.6p1)にアップデート、パケットフィルタリングとOP25Bを解除したあと、リダイレクトループを回避するためにCloudflareの暗号化モードを「Full (strict)」に設定してあります。
 
 現状ではBlueskyそのものであり、開発チーム以外の参加は受け付けておりません。
