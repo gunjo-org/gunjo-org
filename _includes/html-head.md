@@ -9,7 +9,7 @@
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
     {% capture style %}
-    {% include style.css %}
+    {% include style.scss %}
     {% endcapture %}
     <style>
     {{ style | scssify }}
