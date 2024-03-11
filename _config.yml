@@ -9,11 +9,15 @@ email: "hello@gunjo.org"
 
 timezone: Asia/Tokyo
 
-color:
+light:
   bg: "#fff"
   text: "#333"
   alpha: "hsla(0,0%,100%,.5)"
 
+dark:
+  bg: "#333"
+  text: "#fff"
+  alpha: "hsla(0,0%,0%,.5)"
 
 did: "did:plc:fothnjbgdlnmwae7oklslwh7"
 github: gunjo-org

@@ -1,3 +1,19 @@
+$baseurl: "{{ site.baseurl }}";
+
+:root {
+    --bg: {{ site.light.bg }};
+    --text: {{ site.light.text }};
+    --alpha: {{ site.light.alpha }};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: {{ site.dark.bg }};
+    --text: {{ site.dark.text }};
+    --alpha: {{ site.dark.alpha }};
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 @font-face {
@@ -22,8 +38,8 @@ i {
 }
 
 html, body {
-  color: {{ site.color.text }};
-  background-color: {{ site.color.bg }};
+  color: var(--text);
+  background-color: var(--bg);
   padding: 0;
   margin: 0;
   line-height: 1.7;
@@ -48,7 +64,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: {{ site.color.alpha }};
+  background-color: var(--alpha);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   padding: 0 5%;
@@ -76,7 +92,7 @@ ul {
 }
 
 a {
-  color: {{ site.color.text }};
+  color: var(--text);
   text-decoration: underline;
   margin: 1rem;
 }
@@ -99,7 +115,7 @@ article {
 }
 
 fieldset {
-  border: 1px solid {{ site.color.text }};
+  border: 1px solid var(--text);
   padding: 0 0 25px 0;
   border-radius: .3rem;
   legend {
@@ -118,7 +134,7 @@ fieldset {
 
 .status {
   display: inline-block;
-  border-right: 1px solid {{ site.color.text }};
+  border-right: 1px solid var(--text);
   margin: 0;
   margin-right: 20px;
   padding: 10px 23px 10px 0;
@@ -154,20 +170,20 @@ table {
 table,
 th,
 td {
-  border: 1px solid {{ site.color.alpha }};
+  border: 1px solid var(--alpha);
 }
 
 table tr:nth-child(2n-1) {
-  background-color: {{ site.color.bg }};
+  background-color: var(--bg);
 }
  
 table tr:nth-child(2n) {
-  background-color: {{ site.color.alpha }};
+  background-color: var(--alpha);
 }
 
 table tr th {
   font-weight: bold;
-  background-color: {{ site.color.bg }};
+  background-color: var(--bg);
 }
 
 table tr th,
