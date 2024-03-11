@@ -3,14 +3,12 @@ $baseurl: "{{ site.baseurl }}";
 :root {
     --bg: {{ site.light.bg }};
     --text: {{ site.light.text }};
-    --alpha: {{ site.light.alpha }};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: {{ site.dark.bg }};
     --text: {{ site.dark.text }};
-    --alpha: {{ site.dark.alpha }};
   }
 }
 
@@ -64,7 +62,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: var(--alpha);
+  background-color: transparent;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   padding: 0 5%;
@@ -159,35 +157,4 @@ fieldset {
 
 .right {
   text-align: right;
-}
-
-table {
-  border-spacing: 0px;
-  border-collapse: collapse;
-  width:100%;
-}
-
-table,
-th,
-td {
-  border: 1px solid var(--alpha);
-}
-
-table tr:nth-child(2n-1) {
-  background-color: var(--bg);
-}
- 
-table tr:nth-child(2n) {
-  background-color: var(--alpha);
-}
-
-table tr th {
-  font-weight: bold;
-  background-color: var(--bg);
-}
-
-table tr th,
-table tr td {
-  text-align: left;
-  padding: 5px 10px;
 }
