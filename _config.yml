@@ -12,12 +12,12 @@ timezone: Asia/Tokyo
 light:
   bg: "#fff"
   text: "#333"
-  alpha: "hsla(0,0%,100%,.5)"
+  alpha: "transparent"
 
 dark:
   bg: "#333"
   text: "#fff"
-  alpha: "hsla(0,0%,0%,.5)"
+  alpha: "transparent"
 
 did: "did:plc:fothnjbgdlnmwae7oklslwh7"
 github: gunjo-org
