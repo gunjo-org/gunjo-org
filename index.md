@@ -9,7 +9,7 @@ permalink: /
 <h3>新着情報</h3>
 </legend>
 {% for post in site.posts limit:5 %}
-<a href="{{ post.url }}">{{ post.title | truncate: 18 }}</a>
+<a href="{{ post.url }}">{{ post.title | truncate: 20 }}</a>
 <br />
 {% endfor %}
 </fieldset>
