@@ -15,23 +15,23 @@ $baseurl: "{{ site.baseurl }}";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 @font-face {
-  font-family: 'fa-sub';
-  src: url('/assets/fa-sub.woff2') format('woff2');
+  font-family: 'icon';
+  src: url('/assets/icon.woff2') format('woff2');
   font-display: swap;
 }
 
 i {
-  font-family: 'fa-sub';
+  font-family: 'icon';
   font-style: normal;
 }
 
-.fa-2x {
+.icon-2x {
   font-size: 2rem;
 }
-.fa-bluesky:before {
+.icon-bluesky:before {
   content: "\e900";
 }
-.fa-github:before {
+.icon-github:before {
   content: "\eab0";
 }
 
