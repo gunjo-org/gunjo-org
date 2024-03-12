@@ -3,7 +3,6 @@ $baseurl: "{{ site.baseurl }}";
 :root {
     --bg: {{ site.light.bg }};
     --text: {{ site.light.text }};
-    --small: {{ site.light.small }};
     --border: {{ site.light.border }};
 }
 
@@ -11,7 +10,6 @@ $baseurl: "{{ site.baseurl }}";
   :root {
     --bg: {{ site.dark.bg }};
     --text: {{ site.dark.text }};
-    --small: {{ site.light.small }};
     --border: {{ site.dark.border }};
   }
 }
@@ -58,7 +56,7 @@ html, body {
 }
 
 small {
-  color: var(--small);
+  color: var(--text);
   margin: 1rem 0;
 }
 
