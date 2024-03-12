@@ -3,12 +3,14 @@ $baseurl: "{{ site.baseurl }}";
 :root {
     --bg: {{ site.light.bg }};
     --text: {{ site.light.text }};
+    --border: {{ site.light.border }};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: {{ site.dark.bg }};
     --text: {{ site.dark.text }};
+    --border: {{ site.dark.border }};
   }
 }
 
@@ -119,9 +121,9 @@ article {
 }
 
 fieldset {
-  border: 1px solid var(--text);
-  padding: 0 0 25px 0;
-  border-radius: .3rem;
+  border: 0 solid var(--border);
+  padding: 0 1rem 2rem 1rem;
+  border-radius: 1.5rem;
   legend {
     margin: 0 auto;
     padding: 5px 10px;
