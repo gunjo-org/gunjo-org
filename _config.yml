@@ -11,10 +11,10 @@ timezone: Asia/Tokyo
 
 light:
   bg: "#fff"
-  text: "#333"
+  text: "rgba(3,10,18,.81)"
 
 dark:
-  bg: "#333"
+  bg: "rgba(3,10,18,.81)"
   text: "#fff"
 
 quiet: gunjo
