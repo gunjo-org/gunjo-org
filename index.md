@@ -20,18 +20,7 @@ permalink: /
 <br />
 <div id="cal-heatmap"></div>
 <script>
-var currentTime = new Date();
-var year = currentTime.getFullYear()
-var cal = new CalHeatMap();
-cal.init({
-    itemSelector: "#cal-heatmap",
-    domain: "month",
-    data: "/assets/cal.json",
-    start: new Date(year, 0),
-    cellSize: 9,
-    range: 13,
-    previousSelector: "#cal-heatmap-PreviousDomain-selector",
-    nextSelector: "#cal-heatmap-NextDomain-selector",
-    legend: [2, 4, 6, 8],
-});
+const cal = new CalHeatmap();
+cal.paint({});
+render(<div id="cal-heatmap"></div>);
 </script>
