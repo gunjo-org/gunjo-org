@@ -1,4 +1,4 @@
-﻿<header>
+<header>
   <a href="{{ site.url }}" title="{{ site.title }}" class="nav">gunjo.org</a>
   <nav>
     <ul>
