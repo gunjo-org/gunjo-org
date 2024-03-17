@@ -11,7 +11,20 @@
     {% capture style %}
     {% include style.scss %}
     {% endcapture %}
+    {% capture cal-heatmap %}
+    {% include cal-heatmap.scss %}
+    {% endcapture %}
     <style>
     {{ style | scssify }}
+    {{ cal-heatmap | scssify }}
+    div#cal-heatmap{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .cal-heatmap-container {
+        width: 100%;
+    }
     </style>
+    <script src="/assets/d3.v7.min.js"></script>
+    <script src="/assets/cal-heatmap.min.js"></script>
 </head>
