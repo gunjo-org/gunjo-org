@@ -17,10 +17,3 @@ permalink: /
 <small>
 お問い合わせはこちら: {{ site.email }}
 </small>
-<br />
-<div id="cal-heatmap"></div>
-<script>
-const cal = new CalHeatmap();
-cal.paint({});
-render(<div id="cal-heatmap"></div>);
-</script>
