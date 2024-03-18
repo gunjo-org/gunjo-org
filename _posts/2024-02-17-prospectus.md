@@ -17,5 +17,5 @@ Morphoが日本のインターネット社会において、古き良き時代�
 この事業はそういう世界に寄与できる事業であると私は確信しています。
 
 <p class="right">
-Lynn Alexandra Hou
+発起人 Lynn Alexandra Hou
 </p>
