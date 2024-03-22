@@ -10,6 +10,7 @@ layout: compress
       <main>
         {{ content }}
       </main>
+      <small>&copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;{{ site.title }}</small>
     </div>
   </body>
 </html>
