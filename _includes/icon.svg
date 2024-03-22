@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 900"
+     version="1.2"
+     baseProfile="tiny-ps">
+  <title>gunjo.org</title>
+  <path fill="#465daa"
+        d="M 0,450
+           C 0,450 225,678 225,678
+             225,678 304,540 450,539
+             596,539 675,677 675,677
+             675,677 900,449 900,449
+             900,449 725,221 450,221
+             175,222 0,450 0,450 Z" />
+</svg>
