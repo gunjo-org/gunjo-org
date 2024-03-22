@@ -8,3 +8,5 @@ layout: default
 </article>
 
 {% include pagination.md %}
+
+<small>&copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;{{ site.title }}</small>
