@@ -1,5 +1,5 @@
 <header>
-  <a href="/" class="nav"><img src="/assets/icon.svg" /></a>
+  <a href="/" class="nav"><img src="/assets/icon.svg" class="logo" /></a>
   <nav>
     <ul>
       <li><a href="https://bsky.app/profile/{{ site.did }}" class="nav"><i class="icon-bluesky icon-2x"></i></a></li>
