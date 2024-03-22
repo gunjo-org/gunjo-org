@@ -4,7 +4,7 @@
      version="1.2"
      baseProfile="tiny-ps">
   <title>gunjo.org</title>
-  <path fill="#1185fe"
+  <path fill="#db7"
         d="M 0,450
            C 0,450 225,678 225,678
              225,678 304,540 450,539
