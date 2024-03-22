@@ -1,5 +1,5 @@
 <header>
-  <a href="/" class="nav"><img src="/assets/icon.svg" class="icon-2x" />gunjo.org</a>
+  <a href="/" class="nav"><img src="/assets/icon.svg" /></a>
   <nav>
     <ul>
       <li><a href="https://bsky.app/profile/{{ site.did }}" class="nav"><i class="icon-bluesky icon-2x"></i></a></li>
