@@ -62,6 +62,7 @@ i {
 }
 
 small {
+  font-size: .7rem;
   color: var(--text);
   margin: 1rem 0;
 }
@@ -115,7 +116,7 @@ a {
 }
 
 main {
-  font-size: 14px;
+  font-size: 1rem;
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -155,7 +156,7 @@ fieldset {
   margin: 0;
   margin-right: 20px;
   padding: 10px 23px 10px 0;
-  font-size: 24px;
+  font-size: 1.7rem;
   vertical-align: top;
 }
 
@@ -168,7 +169,7 @@ fieldset {
 }
 
 .message {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: inherit;
   margin: 0;
   padding: 0;
