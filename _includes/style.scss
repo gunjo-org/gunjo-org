@@ -14,14 +14,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+html, body {
+  color: var(--text);
+  background-color: var(--bg);
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+  font-family: "Noto Sans JP", serif;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+}
+
 @font-face {
-  font-family: 'icon';
+  font-family: icon;
   src: url('/assets/icon.woff2') format('woff2');
-  font-display: block;
+  font-display: swap;
 }
 
 i {
-  font-family: 'icon' !important;
+  font-family: icon !important;
   font-style: normal;
 }
 
@@ -37,16 +49,15 @@ i {
   content: "\1f408";
 }
 
-html, body {
-  color: var(--text);
-  background-color: var(--bg);
-  padding: 0;
-  margin: 0;
-  line-height: 1.7;
-  font-family: "Noto Sans JP", serif;
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-  }
+@font-face {
+  font-family: Pecita;
+  src: url("/assets/pecita.woff2") format("woff2");
+}
+
+.signature {
+  font-family: Pecita !important;
+  font-weight: normal;
+  text-align: right;
 }
 
 small {
@@ -160,8 +171,4 @@ fieldset {
   line-height: inherit;
   margin: 0;
   padding: 0;
-}
-
-.right {
-  text-align: right;
 }
