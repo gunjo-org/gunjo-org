@@ -19,7 +19,6 @@ dark:
   text: "#fff"
   border: "#626264"
 
-quiet: gunjo
 did: "did:plc:fothnjbgdlnmwae7oklslwh7"
 github: gunjo-org
 
@@ -66,6 +65,8 @@ plugins:
 
 # Date format settings
 date_format: "%Y年%-m月%-d日"
+
+permalink: /:year/:month/:day/:title.html
 
 include:
   - .well-known
